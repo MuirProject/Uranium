@@ -36,12 +36,16 @@ repositories {
     mavenLocal()
     mavenCentral()
     maven {
+        name 'kcauldron'
+        url 'https://sourceforge.net/projects/kcauldron/files/'
+    }
+    maven {
         name 'uraniummc'
         url 'https://repo.uraniummc.cc/repository/maven-public/'
     }
     maven {
         name 'forge'
-        url 'http://files.minecraftforge.net/maven'
+        url 'http://files.minecraftforge.net/maven/'
     }
     maven {
         name 'minecraft'
